@@ -1,4 +1,4 @@
-# node-todo：一个基于Node.js文件模块的小工具
+# node-todo：一个基于Node.js文件模块的任务清单小工具
 
 ***
 
