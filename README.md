@@ -1,4 +1,4 @@
-# node-todo：一个基于Node.js文件模块的任务清单小工具
+# node-todo：基于Node.js文件模块  制定任务清单
 
 ***
 
@@ -27,6 +27,16 @@
 - 删除选中的任务1：
 
 ![5](images/5.png)
+
+## 测试
+
+单元测试：测试`db.js`可以实现正常读、写文件功能
+
+测试工具：**Jest**   [官方入门手册](https://jestjs.io/zh-Hans/docs/getting-started)     安装Jest：`yarn add --dev jest`
+
+设计测试用例：在 `__tests__`文件夹下的`db.spec.js`
+
+运行测试：`yarn test`
 
 ## 发布到npm：（注意使用**npm源**而不是淘宝源）
 
